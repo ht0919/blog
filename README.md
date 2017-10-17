@@ -91,7 +91,14 @@ $ mix phoenix.server
 
 ## 補足
 
-1. PostgreSQLの停止
+1. PostgreSQLの開始スクリプトの作成と実行
 ```
-$ pg_ctl -D /usr/local/var/postgres stop
+$ echo "pg_ctl -D /usr/local/var/postgres -l /usr/local/var/log/postgres start" > pg_start.sh
+$ . pg_start.sh
+```
+
+2. PostgreSQLの停止スクリプトの作成と実行
+```
+$ echo "pg_ctl -D /usr/local/var/postgres stop" > pg_stop.sh
+$ . pg_stop.sh
 ```
