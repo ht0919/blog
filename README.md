@@ -56,7 +56,7 @@ $ mix ecto.create
 ```
 $ mix phoenix.server
 ```
-  - ブラウザで「http://localhost:4000/」を表示
+  - ブラウザで「[http://localhost:4000/](http://localhost:4000/)」を表示
   - Ctrl+Cを2回押してサーバーを停止
 
 
@@ -85,8 +85,9 @@ $ mix ecto.migrate
 ```
 $ mix phoenix.server
 ```
-  - ブラウザで「http://localhost:4000/posts」を表示
+  - ブラウザで「[http://localhost:4000/posts](http://localhost:4000/posts)」を表示
   - 新規登録(New post)、詳細表示(Show)、変更(Edit)、削除(Delete)を一通り試す
+  - Ctrl+Cを2回押してサーバーを停止
 
 
 ## 補足
