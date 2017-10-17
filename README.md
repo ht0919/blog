@@ -70,7 +70,11 @@ $ mix phoenix.gen.html Post posts title:string body:text
 2. HTTPアクセスポイントの追加
   - テキストエディタで「web/router.ex」を開く
   - 19行目の「get "/", PageController, :index」の下に「resources "/posts", PostController」を追加して保存する
-
+```
+19:    get "/", PageController, :index
+20:    resources "/posts", PostController
+21:  end
+```
 
 3. モデルのマイグレーション
 ```
