@@ -59,6 +59,8 @@ $ mix phoenix.server
   - ブラウザで「[http://localhost:4000/](http://localhost:4000/)」を表示
   - Ctrl+Cを2回押してサーバーを停止
 
+  ![Screenshots](https://raw.github.com/wiki/ht0919/blog/blob/master/images/img01.png)
+
 
 ## Webアプリの作成(2)
 
@@ -88,6 +90,8 @@ $ mix phoenix.server
   - ブラウザで「[http://localhost:4000/posts](http://localhost:4000/posts)」を表示
   - 新規登録(New post)、詳細表示(Show)、変更(Edit)、削除(Delete)を一通り試す
   - Ctrl+Cを2回押してサーバーを停止
+
+  ![Screenshots](https://raw.github.com/wiki/ht0919/blog/blob/master/images/img02.png)
 
 
 ## 補足
